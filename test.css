@@ -1,0 +1,31 @@
+
+div{
+    width:1045px;
+    padding:80px;
+    background-color: #f6f5f5;
+    text-align: center;
+    box-sizing: border-box;
+}
+div > h2{
+    font-size:36px;
+    color: red;
+}
+div > h2 > hr{width:100px;}
+div > h2 > p{
+    font-size:16px;
+}
+div > div{
+    margin:60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div > div > p{
+    width:288px; height:399;
+    overflow: hidden;
+    cursor: pointer;
+}
+div > div > p > img{
+    width:100%; transition: .5s;
+}
+div > div > p:hover > img{width:120%;}
